@@ -19,22 +19,22 @@ interface IERC20 {
 contract Doacao {
   IERC20 public tokenMPE1;
   IERC20 public tokenMPE2;
-  address public owner;
+  address public _owner;
 
-  constructor(address _owner,IERC20 _MPE1,IERC20 _MPE2) public {
-    owner = _owner;
-    tokenMPE1 = _MPE1;
-    tokenMPE2 = _MPE2;
+  constructor(address owner,IERC20 MPE1,IERC20 MPE2) public {
+    _owner = owner;
+    tokenMPE1 = MPE1;
+    tokenMPE2 = MPE2;
   }
 
   function donationMPE1(address  recepient, uint256 value, uint256 cents) public{
-    require(msg.sender== owner);
+    require(msg.sender== _owner);
     uint256 mpe1 = formatValue(value,cents,2 );
     tokenMPE1.transfer(recepient,mpe1);
     
   }
   function donationMPE2(address  recepient, uint256 value, uint256 cents) public{
-    require(msg.sender== owner);
+    require(msg.sender== _owner);
     uint256 mpe2 = formatValue(value,cents,2 );
     tokenMPE2.transfer(recepient,mpe2);
     
@@ -50,7 +50,7 @@ contract Doacao {
   }
    
   function donationETH(address payable recepient, uint256 value,uint256 cents) external{
-    require(msg.sender== owner);
+    require(msg.sender== _owner);
     uint256 eth = formatValue(value,cents,18);
     recepient.transfer( eth );
     
