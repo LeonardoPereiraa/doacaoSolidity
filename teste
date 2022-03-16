@@ -1,0 +1,27 @@
+{
+    "title": "Asset Metadata",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "GOOOOD",
+            "deion": "Identifies the asset to which this NFT represents"
+        },
+        "deion": {
+            "type": "string",
+            "deion": "Describes the asset to which this NFT represents"
+        },
+        "image": "https://assets.sorare.com/card/486b5d6e-e86b-4abe-837a-c7f737e48387/picture/5a9e4df3cc84db0405f40e39a8277aaf",
+        "attributes":[
+          {"trait_type":"abiliity1","value":"1"},
+          {"trait_type":"abiliity2","value":"1"},
+          {"trait_type":"abiliity3","value":"1"},
+          {"trait_type":"weapon","value":"1"},
+          {"trait_type":"protection","value":"1"},
+          {"trait_type":"Rarity","value":"Rare"},
+          {"trait_type":"value1","value":"1.06","display_type":"number","max_value":"100"},
+          {"trait_type":"value2","value":"1.06","display_type":"number","max_value":"100"},
+          {"trait_type":"value3","value":"1.06","display_type":"number","max_value":"100"},
+          {"trait_type":"value4","value":"1.06","display_type":"number","max_value":"100"}
+          ]
+    }
+}
