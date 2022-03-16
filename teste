@@ -1,14 +1,7 @@
 {
-  "title": "Asset Metadata",
-  "type": "object",
-  "name": {
-    "type": "GOOOOD",
-    "description": "Identifies the asset to which this NFT represents"
-  },
-  "description": {
-    "type": "string",
-    "description": "Describes the asset to which this NFT represents"
-  },
+  
+  "name": "GOOOOD",
+  "description": "string",
   "image": "https://assets.sorare.com/card/33dfc9f2-a4db-4807-9b18-23c88156a606/picture/4a0a96cf10f5c366e6e0737c104a7276.png",
   "attributes": [
     {
