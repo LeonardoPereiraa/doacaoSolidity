@@ -32,25 +32,25 @@
       "value": "green"
     },
     {
-      "trait_type": "value Up",
+      "trait_type": "Up",
       "value": "8",
       "display_type": "number",
       "max_value": "100"
     },
     {
-      "trait_type": "value Right",
+      "trait_type": "Right",
       "value": "8",
       "display_type": "number",
       "max_value": "100"
     },
     {
-      "trait_type": "value Down",
+      "trait_type": "Down",
       "value": "8",
       "display_type": "number",
       "max_value": "100"
     },
     {
-      "trait_type": "value Left",
+      "trait_type": "Left",
       "value": "8",
       "display_type": "number",
       "max_value": "100"
