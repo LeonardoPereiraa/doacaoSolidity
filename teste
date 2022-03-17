@@ -1,54 +1,115 @@
-{
-  
+{  
+  "name": "GOOOOD",
+  "description": "string",
+  "image": "{  
   "name": "GOOOOD",
   "description": "string",
   "image": "https://assets.sorare.com/card/33dfc9f2-a4db-4807-9b18-23c88156a606/picture/4a0a96cf10f5c366e6e0737c104a7276.png",
   "attributes": [
     {
-      "trait_type": "abiliity1",
+      "trait_type": "Elemento1",
       "value": "1"
     },
     {
-      "trait_type": "abiliity2",
+      "trait_type": "Elemento2",
       "value": "1"
     },
     {
-      "trait_type": "abiliity3",
+      "trait_type": "Elemento3",
       "value": "1"
     },
     {
-      "trait_type": "weapon",
-      "value": "1"
+      "trait_type": "Valor de Atk",
+      "value": "8"
     },
     {
-      "trait_type": "protection",
-      "value": "1"
+      "trait_type": "Valor de Defesa",
+      "value": "8"
     },
     {
-      "trait_type": "Rarity",
-      "value": "Rare"
+      "trait_type": "Background",
+      "value": "purple"
     },
     {
-      "trait_type": "value1",
-      "value": "1.06",
+      "trait_type": "Borda",
+      "value": "green"
+    },
+    {
+      "trait_type": "value Up",
+      "value": "8",
       "display_type": "number",
       "max_value": "100"
     },
     {
-      "trait_type": "value2",
-      "value": "1.06",
+      "trait_type": "value Right",
+      "value": "8",
       "display_type": "number",
       "max_value": "100"
     },
     {
-      "trait_type": "value3",
-      "value": "1.06",
+      "trait_type": "value Down",
+      "value": "8",
       "display_type": "number",
       "max_value": "100"
     },
     {
-      "trait_type": "value4",
-      "value": "1.06",
+      "trait_type": "value Left",
+      "value": "8",
+      "display_type": "number",
+      "max_value": "100"
+    }
+  ]
+}",
+  "attributes": [
+    {
+      "trait_type": "Elemento1",
+      "value": "1"
+    },
+    {
+      "trait_type": "Elemento2",
+      "value": "1"
+    },
+    {
+      "trait_type": "Elemento3",
+      "value": "1"
+    },
+    {
+      "trait_type": "Valor de Atk",
+      "value": "8"
+    },
+    {
+      "trait_type": "Valor de Defesa",
+      "value": "8"
+    },
+    {
+      "trait_type": "Background",
+      "value": "purple"
+    },
+    {
+      "trait_type": "Borda",
+      "value": "green"
+    },
+    {
+      "trait_type": "value Up",
+      "value": "8",
+      "display_type": "number",
+      "max_value": "100"
+    },
+    {
+      "trait_type": "value Right",
+      "value": "8",
+      "display_type": "number",
+      "max_value": "100"
+    },
+    {
+      "trait_type": "value Down",
+      "value": "8",
+      "display_type": "number",
+      "max_value": "100"
+    },
+    {
+      "trait_type": "value Left",
+      "value": "8",
       "display_type": "number",
       "max_value": "100"
     }
